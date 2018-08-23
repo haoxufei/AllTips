@@ -1,0 +1,6 @@
+framework module EOCframe {
+  umbrella header "EOCframe.h"
+
+  export *
+  module * { export * }
+}
