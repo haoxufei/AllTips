@@ -82,6 +82,11 @@
 		047AD1EE211C38E700DEA1E5 /* test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AD1ED211C38E700DEA1E5 /* test.a */; };
 		047AD1F2211C396500DEA1E5 /* EOCframe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AD1F1211C396500DEA1E5 /* EOCframe.framework */; };
 		047AD1F4211C39B200DEA1E5 /* EOCframe.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 047AD1F1211C396500DEA1E5 /* EOCframe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0481B05821E866DD006CABE8 /* Yosemite0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0481B05321E866DC006CABE8 /* Yosemite0.jpg */; };
+		0481B05921E866DD006CABE8 /* Yosemite1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0481B05421E866DC006CABE8 /* Yosemite1.jpg */; };
+		0481B05A21E866DD006CABE8 /* Yosemite2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0481B05521E866DC006CABE8 /* Yosemite2.jpg */; };
+		0481B05B21E866DD006CABE8 /* Yosemite3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0481B05621E866DC006CABE8 /* Yosemite3.jpg */; };
+		0481B05C21E866DD006CABE8 /* Yosemite4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0481B05721E866DC006CABE8 /* Yosemite4.jpg */; };
 		049870D621196A45006D4B3F /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049870D521196A45006D4B3F /* HeaderViewController.m */; };
 		049870DD21198416006D4B3F /* Mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049870D821198416006D4B3F /* Mail@2x.png */; };
 		049870DE21198416006D4B3F /* Setting-click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049870D921198416006D4B3F /* Setting-click@2x.png */; };
@@ -266,6 +271,11 @@
 		047AD1EC211C38DE00DEA1E5 /* EOClib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOClib.h; sourceTree = "<group>"; };
 		047AD1ED211C38E700DEA1E5 /* test.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = test.a; sourceTree = "<group>"; };
 		047AD1F1211C396500DEA1E5 /* EOCframe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EOCframe.framework; sourceTree = "<group>"; };
+		0481B05321E866DC006CABE8 /* Yosemite0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite0.jpg; sourceTree = "<group>"; };
+		0481B05421E866DC006CABE8 /* Yosemite1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite1.jpg; sourceTree = "<group>"; };
+		0481B05521E866DC006CABE8 /* Yosemite2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite2.jpg; sourceTree = "<group>"; };
+		0481B05621E866DC006CABE8 /* Yosemite3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite3.jpg; sourceTree = "<group>"; };
+		0481B05721E866DC006CABE8 /* Yosemite4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite4.jpg; sourceTree = "<group>"; };
 		049870D421196A45006D4B3F /* HeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderViewController.h; sourceTree = "<group>"; };
 		049870D521196A45006D4B3F /* HeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderViewController.m; sourceTree = "<group>"; };
 		049870D821198416006D4B3F /* Mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail@2x.png"; sourceTree = "<group>"; };
@@ -504,6 +514,7 @@
 		041D164D20C1187300CD5BD5 /* NewPagedFlowView */ = {
 			isa = PBXGroup;
 			children = (
+				0481B05221E866DC006CABE8 /* image */,
 				041D164E20C1187300CD5BD5 /* PageViewController.h */,
 				041D164F20C1187300CD5BD5 /* PageViewController.m */,
 				041D165020C1187300CD5BD5 /* View */,
@@ -723,6 +734,18 @@
 			path = include;
 			sourceTree = "<group>";
 		};
+		0481B05221E866DC006CABE8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0481B05321E866DC006CABE8 /* Yosemite0.jpg */,
+				0481B05421E866DC006CABE8 /* Yosemite1.jpg */,
+				0481B05521E866DC006CABE8 /* Yosemite2.jpg */,
+				0481B05621E866DC006CABE8 /* Yosemite3.jpg */,
+				0481B05721E866DC006CABE8 /* Yosemite4.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		049870D321196968006D4B3F /* PushHeader */ = {
 			isa = PBXGroup;
 			children = (
@@ -874,6 +897,7 @@
 				040A40E7211AD42000EBB8A5 /* Corner_Icon_remove@2x.png in Resources */,
 				040A40DD211ACD1000EBB8A5 /* FloatBtn@3x.png in Resources */,
 				0477F1192109C3E400FF55E1 /* jsonViewController.xib in Resources */,
+				0481B05B21E866DD006CABE8 /* Yosemite3.jpg in Resources */,
 				0477F10B21095FCE00FF55E1 /* CityGroupViewController.xib in Resources */,
 				040A40DB211ACD1000EBB8A5 /* More@2x.png in Resources */,
 				040A40E8211AD42000EBB8A5 /* Corner_Icon_remove@3x.png in Resources */,
@@ -882,11 +906,15 @@
 				049870DF21198416006D4B3F /* Setting@2x.png in Resources */,
 				041D162020C117E800CD5BD5 /* Assets.xcassets in Resources */,
 				049870DD21198416006D4B3F /* Mail@2x.png in Resources */,
+				0481B05921E866DD006CABE8 /* Yosemite1.jpg in Resources */,
 				049870E121198416006D4B3F /* Mail-click@2x.png in Resources */,
 				040A40D9211ACD1000EBB8A5 /* FloatBtn@2x.png in Resources */,
+				0481B05821E866DD006CABE8 /* Yosemite0.jpg in Resources */,
 				049870DE21198416006D4B3F /* Setting-click@2x.png in Resources */,
 				040A40DC211ACD1000EBB8A5 /* Close@3x.png in Resources */,
 				0477F11221095FCE00FF55E1 /* KVOViewController.xib in Resources */,
+				0481B05A21E866DD006CABE8 /* Yosemite2.jpg in Resources */,
+				0481B05C21E866DD006CABE8 /* Yosemite4.jpg in Resources */,
 				040A40DE211ACD1000EBB8A5 /* Close@2x.png in Resources */,
 				040A40DA211ACD1000EBB8A5 /* More@3x.png in Resources */,
 				049870E021198416006D4B3F /* bg-mine.png in Resources */,

@@ -29,7 +29,8 @@
     self.title = @"NewPagedFlowView";
     [self.view setBackgroundColor:[UIColor whiteColor]];
     for (int index = 0; index < 5; index++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"Yosemite%02d",index]];
+        NSString *strName = [NSString stringWithFormat:@"Yosemite%d.jpg",index];
+        UIImage *image = [UIImage imageNamed:strName];
         [self.imageArray addObject:image];
     }
     
@@ -43,9 +44,9 @@
     PagedFlowView.isCarousel = YES;
     PagedFlowView.orientation = NewPagedFlowViewOrientationHorizontal;
     PagedFlowView.isOpenAutoScroll = YES;
-    UIPageControl *pagecontrol = [[UIPageControl alloc]initWithFrame:CGRectMake(0, PagedFlowView.frame.size.height - 32, Width, 8)];
-    PagedFlowView.pageControl = pagecontrol;
-    [PagedFlowView addSubview:pagecontrol];
+//    UIPageControl *pagecontrol = [[UIPageControl alloc]initWithFrame:CGRectMake(0, PagedFlowView.frame.size.height - 32, Width, 8)];
+//    PagedFlowView.pageControl = pagecontrol;
+//    [PagedFlowView addSubview:pagecontrol];
     [PagedFlowView reloadData];
     [self.view addSubview:PagedFlowView];
 }
